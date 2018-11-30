@@ -72,6 +72,33 @@ section p {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+    align-content: center;
+  }
+
+  .section-letter {
+    width: 20%;
+  }
+
+  .section-icon {
+    width: 20%;
+    order: 10;
+  }
+
+  .section-body {
+    width: 60%;
+    padding: 0 1.8rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
