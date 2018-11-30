@@ -40,17 +40,11 @@ section {
 }
 
 .section-letter {
-  background-color: red;
   width: 50%;
 }
 
 .section-icon {
-  background-color: blue;
   width: 50%;
-}
-
-.section-body {
-  background-color: green;
 }
 
 section h2 {
@@ -111,5 +105,9 @@ section p {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
 }
