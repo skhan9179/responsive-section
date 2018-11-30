@@ -18,8 +18,7 @@ html {
 }
 
 body,
-h2,
-p {
+h2 {
   margin: 0;
 }
 
@@ -28,6 +27,8 @@ section {
 }
 
 .wrapper {
+  margin: 0 auto;
+
   max-width: 45em;
   display: flex;
   flex-wrap: wrap;
@@ -52,7 +53,7 @@ section h2 {
 }
 
 section p {
-
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -72,9 +73,7 @@ section p {
   }
 
   .wrapper {
-    margin-left: auto;
-    margin-right: auto;
-
+    justify-content: center;
     align-items: center;
     align-content: center;
   }
